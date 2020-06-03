@@ -1,0 +1,8 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    height:48px;
+    background-color: #0050B3;
+}
