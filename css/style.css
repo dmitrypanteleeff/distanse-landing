@@ -85,3 +85,32 @@ html,body{
     background-color:#003A8C;
     margin-left:12px;
 }
+.header-block__icons-panel a{
+    text-decoration: none;
+}
+.header-block__icons-panel{
+    display: flex;
+    align-items: center;
+}
+.icon-panel{
+    fill:#002766;
+    margin-left:8.5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.icon-panel:last-child:before{
+    content:"";
+    width:1px;
+    height:16px;
+    background-color:#003A8C;
+    margin-right:6px;
+ 
+}
+.icon-panel--active{
+    fill:#fff;
+    margin-left:8.5px;
+}
+.icon-panel:hover{
+    fill:#fff;
+}
