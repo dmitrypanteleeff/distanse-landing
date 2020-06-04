@@ -136,13 +136,22 @@ html,body{
      flex-direction: column;
      width: 192px;
  }
+ .menu-sidebar__user{
+     margin-left:10px;
+     display: flex;
+     align-items: center;
+ }
  .menu-sidebar__user-avatar{
      width: 24px;
      height: 24px;
  }
  .menu-sidebar__user-name{
-    text-decoration: none;
-    color: #595959;
+    margin-left: 8px;
+    color: #262626;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 22px;   
+    text-decoration: none;   
 }
  .menu-sidebar__nav-group{
      display: flex;
@@ -195,4 +204,8 @@ html,body{
 }
 .menu-sidebar__span-title{
     font-weight: bold;
+}
+.menu-sidebar__nav-explore .menu-sidebar__nav-link:last-child{
+    margin-left:6px;
+    width: 186px;
 }
