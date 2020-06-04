@@ -5,6 +5,9 @@ html,body{
 *{
     box-sizing:border-box;
 }
+.body{
+    font-family: sans-serif;
+}
 .header {
   /*  height:48px;*/
     background-color: #0050B3;
@@ -87,30 +90,35 @@ html,body{
 }
 .header-block__icons-panel a{
     text-decoration: none;
+
 }
 .header-block__icons-panel{
     display: flex;
     align-items: center;
 }
-.icon-panel{
+.header-block__svg{
     fill:#002766;
-    margin-left:8.5px;
+    margin-left:17px;
     text-decoration: none;
     display: flex;
     align-items: center;
 }
-.icon-panel:last-child:before{
+
+.header-block__svg--active{
+    fill:#fff;
+    margin-left:17px;
+}
+.header-block__svg:hover{
+    fill:#fff;
+}
+.header-block__icon-link{
+    display: flex;
+    align-items: center;
+}
+.header-block__icon-link:last-child:before{
     content:"";
     width:1px;
     height:16px;
     background-color:#003A8C;
-    margin-right:6px;
- 
-}
-.icon-panel--active{
-    fill:#fff;
-    margin-left:8.5px;
-}
-.icon-panel:hover{
-    fill:#fff;
+    margin-left:12px; 
 }
