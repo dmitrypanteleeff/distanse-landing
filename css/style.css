@@ -222,6 +222,7 @@ html,body{
     background-color: #FFFFFF;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    overflow: hidden;
 }
 .create-post__header{
     background-color: #F5F5F5;
@@ -234,13 +235,29 @@ html,body{
 .create-post__body{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: start;
     padding: 16px 24px 16px;
 }
+.create-post__user-avatar{
+    width: 40px;
+    height:40px;
+}
+.create-post__input{
+    width:90%;
+    margin-left:16px;
+    margin-top: 6px;
+    margin-right:0px;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8C8C8C;
+}
 .create-post__footer{
-    padding:16px;
+    padding-top: 16px;
+    margin: 0px 16px 16px;
     display: flex;
     flex-direction: row;
+    border-top: 1px solid #E8E8E8;
 }
 .create-post__btn{
     border-radius: 25px;
