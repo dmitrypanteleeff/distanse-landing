@@ -223,6 +223,7 @@ html,body{
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     overflow: hidden;
+    margin-bottom: 15px;
 }
 .create-post__header{
     background-color: #F5F5F5;
