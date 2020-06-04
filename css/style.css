@@ -21,9 +21,6 @@ html,body{
     align-items: center;
     justify-content: space-between;
 }
-.search{
-   
-}
 .header-block__search-input{
    
     width: 336px;
@@ -206,6 +203,11 @@ html,body{
     font-weight: bold;
 }
 .menu-sidebar__nav-explore .menu-sidebar__nav-link:last-child{
+    margin-top:4px;
     margin-left:6px;
     width: 186px;
+    color: #1890FF;
+}
+.menu-sidebar__nav-explore .menu-sidebar__nav-link:last-child .menu-sidebar__nav-svg{
+    margin-right:14px;
 }
