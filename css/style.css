@@ -217,6 +217,7 @@ html,body{
     width: 100%;
     max-width: 588px;
     margin-left: 18px;
+    margin-right: 18px;
 }
 .main__post{
     background-color: #FFFFFF;
@@ -390,4 +391,49 @@ html,body{
     line-height: 22px; 
     color: #595959; 
     margin-left:8px;
+}
+.main__stories{
+    padding: 16px 16px 16px 24px;
+    min-width: 384px;
+    width: 100%;
+}
+.stories__header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.stories__links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-self: flex-end;
+}
+.stories__one-link{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+}
+.stories__one-link:last-child:before{
+    display:inline-block;
+    content:"";
+    width:4px;
+    height:4px;
+    border-radius: 50%;
+    background-color:#BFBFBF;
+    margin:3px 6px;
+}
+.stories__btn{
+    border:none;
+   /* background: none;*/
+}
+.avatar{ 
+    width:48px;
+    height:48px;
+    border-radius: 50%;
+}
+.stories__img{
+    border:1px solid red;
 }
