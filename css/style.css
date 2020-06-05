@@ -272,3 +272,113 @@ html,body{
 .create-post__span{
     margin-left:8px;
 }
+.feed__feed-post{
+    padding: 16px;
+}
+.feed-post__header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+/*.feed-post__header:last-child{
+    align-items: flex-start;
+}*/
+.feed-post__user{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.feed-post__user-avatar{
+    width:48px;
+    height: 48px;
+}
+
+.feed-post__post-author-info{
+    margin-left:12px;
+    margin-top:4px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.feed-post__post-info{
+    display: flex;
+    align-items: center;
+}
+.feed-post__post-info-time{
+    color:#BFBFBF;
+    font-family: sans-serif;
+}
+.feed-post__post-info-time:after{
+    display:inline-block;
+    content:"";
+    width:4px;
+    height:4px;
+    border-radius: 50%;
+    background-color:#BFBFBF;
+    margin:3px 6px;
+}
+.feed-post__header-btn{
+    border:none;
+    background: none;
+    margin-top: 0px;
+}
+.feed-post__header-svg{
+   /* margin-top: 12px;*/
+}
+.feed-post__text{
+    margin: 16px 0px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #595959;
+    font-family: sans-serif;
+}
+.feed-post__img-feed{
+    border-radius: 4px;
+    border: 1px solid #BFBFBF;
+}
+
+.feed-post__likes{
+    margin: 9px 0px;
+    display: flex;
+    align-items: center;
+}
+.feed-post__like-counter{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 4px;
+}
+.feed-post__footer{
+    padding-top:16px;
+    border-top:1px solid #E8E8E8;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.feed-post__footer-btn{
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+}
+.feed-post__footer-btn:hover .feed-post__svg{
+    fill:#1890FF;
+}
+.feed-post__footer-btn:hover .feed-post__footer-span{
+    color:#1890FF;
+}
+.feed-post__svg{
+    fill:#595959;
+}
+
+.feed-post__footer-span{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 22px; 
+    color: #595959; 
+    margin-left:8px;
+}
