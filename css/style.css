@@ -421,6 +421,12 @@ button, a {
     font-size: 14px;
     line-height: 22px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #0050B3;
+}
+.stories__one-link-svg{
+    margin-right: 4px;
 }
 .stories__header .stories__one-link:last-child:before{
     display:inline-block;
@@ -469,5 +475,10 @@ button, a {
     line-height: 22px;
     font-weight: bold;
     color: #0050B3;
+}
+.stories__time{
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C8C8C;
 }
 
