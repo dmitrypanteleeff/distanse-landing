@@ -295,7 +295,11 @@ html,body{
     width:48px;
     height: 48px;
 }
-
+.feed-post__post-author{
+    color: #0050B3;
+    font-family: sans-serif;
+    text-decoration: none;
+}
 .feed-post__post-author-info{
     margin-left:12px;
     margin-top:4px;
@@ -335,9 +339,14 @@ html,body{
     color: #595959;
     font-family: sans-serif;
 }
+.feed-post__text-link{
+    text-decoration: none;
+    color:#1890FF;
+}
 .feed-post__img-feed{
     border-radius: 4px;
     border: 1px solid #BFBFBF;
+    max-width: 100%;
 }
 
 .feed-post__likes{
