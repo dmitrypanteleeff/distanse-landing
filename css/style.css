@@ -17,6 +17,7 @@ button, a {
 .header {
   /*  height:48px;*/
     background-color: #0050B3;
+    padding: 0px 15px;
 }
 .header__header-block{ 
    padding:6px 0px;
@@ -125,6 +126,9 @@ button, a {
     height:16px;
     background-color:#003A8C;
     margin-left:12px; 
+}
+.main{
+    padding: 0px 15px;
 }
 .main__container{ 
     max-width: 1200px;
@@ -334,6 +338,7 @@ button, a {
     border:none;
     background: none;
     margin-top: 0px;
+    
 }
 .feed-post__header-svg{
    /* margin-top: 12px;*/
@@ -397,10 +402,13 @@ button, a {
     color: #595959; 
     margin-left:8px;
 }
-.main__stories{
-    padding: 16px 16px 16px 24px;
-    min-width: 384px;
+.main__menu-right-side{
+    max-width: 384px;
+    min-width: 300px;
     width: 100%;
+}
+.main__stories{
+    padding: 16px 16px 16px 24px; 
 }
 .stories__header{
     display: flex;
@@ -480,5 +488,63 @@ button, a {
     font-size: 14px;
     line-height: 22px;
     color: #8C8C8C;
+}
+.main__birthday{
+    padding: 16px;
+    display: flex;
+    justify-content: flex-start;
+}
+.birthday_link{
+    margin-left: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #0050B3;
+}
+.birthday_info{
+    font-size: 14px;
+    line-height: 22px;
+}
+.main__fanpage{
+    
+}
+.fanpage__header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 16px;
+    border-bottom: 1px solid #D9D9D9;
+}
+.fanpage__header-btn{
+    border:none;
+    background: none;
+    display: flex;
+    align-items: center;
+}
+.fanpage__container{
+    padding: 16px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.fanpage__user{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.fanpage__user-name{
+    margin-top: 4px;
+    text-decoration: none;
+    color:#003A8C;
+}
+.fanpage__message{
+    margin-left: 6px;
+}
+.fanpage__bottom{
+    border-top: 1px solid #D9D9D9;
+    padding: 16px;
 }
 
