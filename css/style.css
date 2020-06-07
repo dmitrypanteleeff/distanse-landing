@@ -567,8 +567,9 @@ button, a {
     display:flex;
     flex-wrap: nowrap;
     flex-direction: row;
-     /*justify-content: center;
-    align-items: center;*/
+    justify-content: center;
+    align-items: center;
+    outline:none;
     height: 40px;
     border-radius: 4px;
     border:1px solid #D9D9D9;
@@ -586,6 +587,7 @@ button, a {
     border-right:none;
 }
 .fanpage__data-btn:hover{
+   /* outline:1px solid #1890FF;*/
     border:1px solid #1890FF;
 }
 .fanpage__data-span{
