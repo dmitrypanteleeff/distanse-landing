@@ -19,6 +19,9 @@ button, a {
     background-color: #0050B3;
     padding: 0px 15px;
 }
+.tooltip_templates { 
+    display: none; 
+}
 .header__header-block{ 
    padding:6px 0px;
    max-width: 1200px;
@@ -391,6 +394,7 @@ button, a {
 .feed-post__footer-btn:hover .feed-post__footer-span{
     color:#1890FF;
 }
+
 .feed-post__svg{
     fill:#595959;
 }
@@ -402,6 +406,31 @@ button, a {
     color: #595959; 
     margin-left:8px;
 }
+.feed-post__footer-share{
+    padding: 12px;
+    border:1px solid red;
+}
+.tooltipster-sidetip.tooltipster-shadow.tooltipster-shadow-customized .tooltipster-box {
+    padding: 4px 12px;
+	background: white;
+	border-radius: 6px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+}
+.tooltipster-sidetip.tooltipster-shadow.tooltipster-shadow-customized .tooltipster-content {
+   /* text-decoration: none;
+    color: #595959;
+    font-size: 12px;
+    line-height: 20px;*/
+	padding: 5px 0px;
+}
+.tooltipster-sidetip.tooltipster-shadow.tooltipster-shadow-customized .tooltipster-content .feed-post__footer-share-link {
+    text-decoration: none;
+    color: #595959;
+    font-size: 12px;
+    line-height: 20px;
+    
+}
+
 .main__menu-right-side{
     max-width: 384px;
     min-width: 300px;
