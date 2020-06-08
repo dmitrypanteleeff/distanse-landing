@@ -1,6 +1,6 @@
 html,body{
     margin: 0px;
-    padding: 0px;
+    padding: 20px 0px 0px 0px;
     background-color: #E5E5E5;
     font-family: sans-serif;
 }
@@ -18,6 +18,11 @@ button, a {
   /*  height:48px;*/
     background-color: #0050B3;
     padding: 0px 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    left:0px;
+    top:0px;
 }
 .tooltip_templates { 
     display: none; 
@@ -30,8 +35,28 @@ button, a {
     align-items: center;
     justify-content: space-between;
 }
+.header-block__m-menu{
+    border:none;
+    width:42px;
+    height: 32px;
+    background-color: transparent;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.header-block__line{
+    width:100%;
+    height: 1px;
+    background-color: white;
+    
+}
+.header-block__search{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 .header-block__search-input{
-   
+   margin-left: 50px;
     width: 336px;
     height:32px;
     padding: 5px 30px 5px 12px;
@@ -135,7 +160,8 @@ button, a {
 }
 .main__container{ 
     max-width: 1200px;
-    margin:16px auto;
+    padding-top: 16px;
+    margin:0px auto 16px auto;
      display: flex;
      flex-wrap: nowrap;
      flex-direction: row;
@@ -665,4 +691,56 @@ button, a {
     font-size: 14px;
     line-height: 22px;
     color: #8C8C8C;
+}
+@media(max-width:1035px){
+   .main__menu-right-side{
+        display: none;
+   }
+   
+}
+@media(max-width:965px){
+    .header-block__user{
+        display: none;
+    }
+    .header-block__navigation-panel{
+        display: none;
+    }
+}
+@media(max-width:840px){
+    .header-block__m-menu{
+        display: flex;
+    }
+    .main__menu-sidebar{
+        position: fixed;
+        top:40px;
+        left:0px;
+        background-color: #f1f1f1;
+        max-width: 270px;
+        width: 100%;
+        height: 100%;
+        padding-left: 2%;
+        /*flex-grow: 1;*/
+        transform: translateX(-100%);
+        transition: transform 0.2s;
+    }
+    .main__menu-sidebar--active{
+        transform: translateX(0%);
+        
+     }
+    .menu-sidebar__user{
+        padding-top: 12px;
+    }
+    .menu-sidebar__nav-link{
+        max-width: 270px;
+        width: 100%;
+    }
+    
+}
+@media(max-width:740px){
+    .main{
+        padding:0px 0px;
+    }
+ .header-block__search-input{
+     display: none;
+ }
 }
