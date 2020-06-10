@@ -497,10 +497,8 @@ div:active, button:active, button:focus, div:focus {
     text-decoration: none;
     color: #595959;
     font-size: 12px;
-    line-height: 20px;
-    
+    line-height: 20px;  
 }
-
 .main__menu-right-side{
     max-width: 384px;
     min-width: 300px;
