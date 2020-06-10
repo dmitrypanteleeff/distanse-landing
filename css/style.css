@@ -10,7 +10,9 @@ button, a {
 *{
     box-sizing:border-box;
 }
-
+div:active, button:active, button:focus, div:focus {
+    outline: none;
+  }
 .body{
     font-family: sans-serif;
 }
