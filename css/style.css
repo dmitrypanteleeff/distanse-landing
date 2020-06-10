@@ -44,6 +44,32 @@ button, a {
     flex-direction: column;
     justify-content: space-around;
 }
+.line__line-1{
+    transform: rotate(0deg);
+    transform: translateY(0px);
+    position: relative;
+    transition: transform 0.5s;
+}
+.line__line-1--active{
+    transform: rotate(45deg) translateX(5px) translateY(5px);
+}
+.line__line-2{
+    display:block;
+    transition: display 0.5s;
+}
+.line__line-2--active{
+    display: none;    
+}
+.line__line-3{
+    transform: rotate(0deg);
+    transform: translateY(0px);
+    position: relative;
+    transition: transform 0.5s;
+}
+.line__line-3--active{
+    transform: translateY(30px);
+    transform: rotate(-45deg) translateX(5px) translateY(-5px);
+}
 .header-block__line{
     width:100%;
     height: 1px;
@@ -172,6 +198,7 @@ button, a {
      display: flex;
      flex-direction: column;
      width: 192px;
+     z-index: 1;
  }
  .menu-sidebar__user{
      margin-left:10px;
@@ -256,6 +283,21 @@ button, a {
     max-width: 588px;
     margin-left: 18px;
     margin-right: 18px;
+}
+.main__feed-fon{
+    display: none;
+    position: absolute;
+    top:0;
+    opacity: 0%;
+    background: black;
+    width: 100%;
+    height: 115%;
+    transition: opacity 3.0s;
+}
+.main__feed-fon--active{
+    display: block;
+    
+    opacity: 50%;
 }
 .main__post{
     background-color: #FFFFFF;
@@ -721,7 +763,7 @@ button, a {
         padding-left: 2%;
         /*flex-grow: 1;*/
         transform: translateX(-100%);
-        transition: transform 0.2s;
+        transition: transform 0.5s;
     }
     .main__menu-sidebar--active{
         transform: translateX(0%);
