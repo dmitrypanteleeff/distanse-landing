@@ -252,7 +252,7 @@ div:active, button:active, button:focus, div:focus {
     font-weight: bold;
  }
  .menu-sidebar__nav-link:hover:after{
-    content:". . .";
+    content:"";
     background-position: 100% 50%;
     font-size:22px;
     width:40px;
